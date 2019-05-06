@@ -1,0 +1,10 @@
+[core]
+	editor = nano
+[user]
+	name = Raquel Zevallos
+	email = raquelzevallos@email.arizona.edu
+[push]
+	default = simple
+[alias]
+	graph = log --graph --abbrev-commit --date=iso --all
+	list-tags = tag --sort version:refname -n10 -n
