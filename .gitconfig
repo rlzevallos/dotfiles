@@ -6,5 +6,11 @@
 [push]
 	default = simple
 [alias]
+	# Show log graph
 	graph = log --graph --abbrev-commit --date=iso --all
+	
+	# List 10 most recent tags
 	list-tags = tag --sort version:refname -n10 -n
+	
+	# List contributors with number of commits
+	contributors = shortlog --summary --numbered
