@@ -14,5 +14,6 @@
 	
 	# List contributors with number of commits
 	contributors = shortlog --summary --numbered
+# Force SSL
 [url "git@github.com:"]
 	insteadOf = https://github.com/
