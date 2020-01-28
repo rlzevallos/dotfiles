@@ -14,3 +14,5 @@
 	
 	# List contributors with number of commits
 	contributors = shortlog --summary --numbered
+[url "git@github.com:"]
+	insteadOf = https://github.com/
